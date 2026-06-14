@@ -174,9 +174,6 @@ The optimal K is identified at the point where adding additional clusters produc
 
 The Silhouette Score measures cluster cohesion and separation.
 
-<img width="1584" height="394" alt="perbandingan cluster" src="https://github.com/user-attachments/assets/f66eb897-a92e-419e-8c47-ecd049dab306" />
-
-
 Interpretation:
 
 | Score Range | Interpretation |
@@ -197,6 +194,8 @@ Interpretation:
 |--------|--------------|
 | < 1.0 | Good clustering |
 | > 1.0 | Poor clustering |
+
+<img width="1584" alt="perbandingan cluster" src="https://github.com/user-attachments/assets/f66eb897-a92e-419e-8c47-ecd049dab306" />
 
 ---
 
@@ -235,29 +234,14 @@ This visualization helps identify dominant patient groups.
 
 Average characteristics for each cluster.
 
-| Cluster | Average Age | Average LOS | Average Satisfaction |
-|----------|------------|-------------|---------------------|
-| 0 | ... | ... | ... |
-| 1 | ... | ... | ... |
-| 2 | ... | ... | ... |
-| 3 | ... | ... | ... |
-| 4 | ... | ... | ... |
-| 5 | ... | ... | ... |
-
----
-
-## Cluster Comparison
-
-Boxplots are used to compare variable distributions across clusters.
-
-![Cluster Boxplots](images/cluster_boxplots.png)
-
-These plots reveal:
-
-- Variability
-- Cluster differences
-- Outliers
-- Behavioral patterns
+| Cluster | Average Age | Average LOS | Average Satisfaction | amount | Proportion (%) |
+|----------|------------|-------------|----------------------| ------ | -------------- |
+| 0 | 71.34 | 4.68 | 69.03 | 160 | 16.0 |
+| 1 | 20.72 | 4.99 | 71.12 | 184 | 18.4 |
+| 2 | 47.81 | 11.64 | 69.82 | 162 | 16.2 |
+| 3 | 53.85 | 3.50 | 89.24 | 174 | 17.4 |
+| 4 | 69.93 | 10.64 | 89.14 | 136 | 13.6 |
+| 5 | 18.94 | 9.77 | 89.70 | 184 | 18.4 |
 
 ---
 
